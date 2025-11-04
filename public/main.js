@@ -8,7 +8,7 @@ const messageInput = document.getElementById('message-input')
 
 messageForm.addEventListener('submit',(e)=>{
     e.preventDefault()
-    sendMessage()
+        sendMessage()
 })
 
 socket.on('clients-total',(data)=>{
